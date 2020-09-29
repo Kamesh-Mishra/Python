@@ -6,3 +6,14 @@ height=float(input("Enter your height in meter:"))
 BMI=((weight/height)/height)
 
 print("your BMI is:",BMI)
+
+
+##################
+
+
+def bmi(weight,height):
+    BMI = (weight/(height*height))
+    print("BMI = ",BMI) 
+
+bmi(float(input("Enter your weight in kg:")), float(input("Enter your height in meter:")))
+
